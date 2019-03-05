@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity implements ZXingScannerView.
     @Override
     public void handleResult(Result result)
     {
+        String[] cadena = result.getText().split("=");
+        String[] rut = cadena[1].split("&");
         Log.v("HandleResult",result.getText());
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Resultado del scan");
