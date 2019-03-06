@@ -1,0 +1,4 @@
+#Wed Apr 25 16:24:54 CLST 2018
+base.0=/home/zuri/Documentos/AWAKE/awake_android/app/build/intermediates/transforms/dexMerger/debug/3
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/zuri/Documentos/AWAKE/awake_android/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-xxhdpi-v4/values-xxhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/zuri/.gradle/caches/transforms-1/files-1.1/twitter-core-3.1.1.aar/9d2130bf6b4db7224060d7083151b22e/res/values-xxhdpi-v4/values-xxhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                }
+            ]
+        }
+    ]
+}

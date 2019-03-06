@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/menuLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/header"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.5">
+
+                <ImageButton
+                    android:id="@+id/directorio"
+                    android:layout_width="81dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/button"
+                    android:cropToPadding="false"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@mipmap/menu_icon1" />
+
+                <TextView
+                    android:id="@+id/text_directorio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/directorio"
+                    android:layout_centerHorizontal="true"
+                    android:text="DIRECTORIO"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.5">
+
+                <ImageButton
+                    android:id="@+id/posponer"
+                    android:layout_width="81dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/button"
+                    android:cropToPadding="false"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@mipmap/menu_icon2" />
+
+                <TextView
+                    android:id="@+id/text_posponer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/posponer"
+                    android:layout_centerHorizontal="true"
+                    android:text="POSPONER"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.5">
+
+                <ImageButton
+                    android:id="@+id/sosafe"
+                    android:layout_width="81dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/button"
+                    android:cropToPadding="false"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@mipmap/menu_icon3" />
+
+                <TextView
+                    android:id="@+id/text_sosafe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/sosafe"
+                    android:layout_centerHorizontal="true"
+                    android:text="SOSAFE"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/panic_button"
+                    android:layout_width="162dp"
+                    android:layout_height="120dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/button"
+                    android:cropToPadding="false"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@mipmap/button_panic" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.5">
+
+                <ImageButton
+                    android:id="@+id/entretencion"
+                    android:layout_width="81dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/button"
+                    android:cropToPadding="false"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@mipmap/menu_icon4" />
+
+                <TextView
+                    android:id="@+id/text_entretencion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/entretencion"
+                    android:layout_centerHorizontal="true"
+                    android:text="ENTRETENCION"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.5">
+
+                <ImageButton
+                    android:id="@+id/vecinos"
+                    android:layout_width="81dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/button"
+                    android:cropToPadding="false"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@mipmap/menu_icon5" />
+
+                <TextView
+                    android:id="@+id/text_vecinos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/vecinos"
+                    android:layout_centerHorizontal="true"
+                    android:text="VECINOS"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.5">
+
+                <ImageButton
+                    android:id="@+id/mensajes"
+                    android:layout_width="81dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/button"
+                    android:cropToPadding="false"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@mipmap/menu_icon6" />
+
+                <TextView
+                    android:id="@+id/text_mensajes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/mensajes"
+                    android:layout_centerHorizontal="true"
+                    android:text="MENSAJES"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.6"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="400dp"
+            android:layout_marginRight="400dp"
+            android:text="00:00"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/stopAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:background="@android:color/transparent"
+            app:srcCompat="@mipmap/awake" />
+    </LinearLayout>
+</LinearLayout>
